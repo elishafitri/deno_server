@@ -1,5 +1,5 @@
 //const socket = new WebSocket (`ws://localhost/`)
-const socket = new WebSocket ('https://elishafitri-deno-server.deno.dev/')
+const socket = new WebSocket ('wss://elishafitri-deno-server.deno.dev/')
 socket.onopen  = () => console.log (`client websocket opened`)
 socket.onclose = () => console.log (`client websocket closed`)
 socket.onerror   = e => console.dir (e)
