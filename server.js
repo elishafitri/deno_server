@@ -1,6 +1,6 @@
 import { serve } from "https://deno.land/std@0.158.0/http/server.ts"
 import { serveDir } from "https://deno.land/std@0.158.0/http/file_server.ts"
-const socket = new WebSocket (`wss://elishafitri-deno-server.deno.dev/`)
+const socket = new WebSocket (`wss://elishafitri-deno-server.deno.dev/`);
 //import { getNetworkAddr } from "https://deno.land/x/local_ip/mod.ts"
 
 // const local_ip = await getNetworkAddr()
